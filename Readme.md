@@ -1,0 +1,4 @@
+install langchain
+install langchain_community
+install ipykernel
+pythton-dotenv
