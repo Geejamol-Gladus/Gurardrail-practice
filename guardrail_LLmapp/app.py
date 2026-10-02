@@ -96,7 +96,7 @@ output_parser =StrOutputParser()
 
 chain=prompt|llm|output_parser
 
-# the guardrail are implemented here
+
 if input_text:
     try:
         topic_guard.validate(input_text)
